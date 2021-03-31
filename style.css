@@ -4,21 +4,21 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.matrix {
+ .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.matrix img {
+ .header img {
   width: 100%;
 }
-.matrix .more-inf {
+ .header .more-inf {
   font-family: fantasy, cursive;
 }
  
 @media (max-width:768px) {
-.matrix { text-align: center;
+ .header { text-align: center;
 }
 }
 .main-block {
@@ -31,7 +31,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.task-wrappe
   display: flex;
 }
 ul {
@@ -121,15 +121,15 @@ li > label {
 li >    input[type="text"] {
   width: 226px
 }
-li > button.delete:hover {
+li > button.button-del:hover {
   color: #cf2323;
 }
-button.delete img {
+button.button-del img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.button-del img:hover {
   transform: rotateZ(0);
 }
 
