@@ -32,7 +32,8 @@
   margin: 0 auto 0;
 }
 
-.task, .label-task {
+.task,
+.label-task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
@@ -42,7 +43,8 @@
   display: flex;
 } 
 
-#incomplete-tasks, #completed-tasks{
+#incomplete-tasks,
+#completed-tasks{
   margin:0;
   padding: 0px; 
 }
