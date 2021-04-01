@@ -51,7 +51,7 @@
 }
 
 .button {
-    outline:none;
+  outline: none;
   background: none;
   border: 0px;
   color: #888;
@@ -101,7 +101,7 @@
 
 #new-task {
   width: 318px;
-  outline:none;
+  outline: none;
 }
 
 p > .button:hover {
@@ -121,7 +121,7 @@ p > .button:hover {
 
 .input-checkbox{
   margin: 0 10px;
-  outline:none;
+  outline: none;
 }
 .item > .label-task {
   padding-left: 10px;
@@ -149,21 +149,21 @@ li >    .input-text {
 
 /* Completed */
 #completed-tasks .label-task {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 
 /* Edit Task */
 .item .input-text {
-  display:none
+  display: none
 }
 
 .edit-mode .input-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .label-task {
-  display:none;
+  display: none;
 }
